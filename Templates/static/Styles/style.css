@@ -1,0 +1,336 @@
+body{
+    margin:0;
+    background-color: #D8DBE2;
+}
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main-doc {
+    width:100%;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.sections{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #58A4B0;
+    padding:10px 0px;
+    margin:0px 0px 30px 0px;
+}
+
+.sections__section{
+    float:right;
+}
+
+.sections__link{
+    font-size: 26px;
+    text-decoration: none;
+    color:#1B1B1E;
+    padding:10px 18px;  
+}
+
+.sections__link:hover{
+    background-color: #A9BCD0;
+}
+
+.header-me__img {
+    width:300px;
+    height:300px;
+    border-radius: 500px;
+    border:#373F51 ridge;
+}
+
+h1 {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:40px;
+    color:#1B1B1E;
+}
+
+.about-me__social-medias{
+    padding:70px;
+}
+
+.about-me__p{
+    font-size:20px;
+    width:1000px;
+    text-align: center;
+    margin: 0 auto;
+    color:#1B1B1E;
+}
+
+.about-me__social-media-h2{
+    font-size: 40px;
+    padding:0;
+    margin:0;
+}
+
+.about-me__social-medias-ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding:0;
+    width:980px;
+    margin: 0 240px;
+    border:0;
+}
+
+.about-me__social-media-ul-li{
+    float: left;
+}
+
+.about-me__social-media-ico{
+    padding:0 20px;
+}
+
+.about-me__social-media-link{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.about-me__social-media-ico-github{
+    width: 70px;
+    height: 70px;
+}
+
+.about-me__social-media-github{
+    text-decoration: none;
+    color:#1B1B1E;
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+.about-me__social-media-ico-stackoverflow{
+    width: 70px;
+    height: 70px;
+}
+
+.about-me__social-media-stackoverflow{    
+    text-decoration: none;
+    color:#1B1B1E;
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+.about-me__social-media-ico-linkedin{
+    width: 70px;
+    height: 70px;
+}
+
+.about-me__social-media-linkedin{
+    text-decoration: none;
+    color:#1B1B1E;
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+.about-me__social-media-ico-fiverr{
+    width: 70px;
+    height: 70px;
+}
+
+.about-me__social-media-fiverr{    
+    text-decoration: none;
+    color:#1B1B1E;
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+.about-me__social-media-ico-facebook{
+    width: 70px;
+    height: 70px;
+}
+
+.about-me__social-media-facebook{    
+    text-decoration: none;
+    color:#1B1B1E;
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+.about-me__social-media-ico-instagram{
+    width: 70px;
+    height: 70px;
+}
+
+.about-me__social-media-instagram{    
+    text-decoration: none;
+    color:#1B1B1E;
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+.about-me__social-media-ico-twitter{
+    width: 70px;
+    height: 70px;
+}
+
+.about-me__social-media-twitter{    
+    text-decoration: none;
+    color:#1B1B1E;
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+.skills__h2{
+    font-size: 40px;
+    padding:0;
+    margin:0;
+}
+
+.skills__ico{
+    padding:0 20px;
+}
+
+.skills__ico-html5 {
+    width: 70px;
+    height: 70px;
+}
+.skills__ico-css{
+    width: 70px;
+    height: 70px;
+}
+.skills__ico-python{
+    width: 70px;
+    height: 70px;
+}
+.skills__ico-django{
+    width: 70px;
+    height: 70px;
+}
+.skills__ico-mysql{
+    width: 70px;
+    height: 70px;
+}
+.skills__ico-postgresql{
+    width: 70px;
+    height: 70px;
+}
+.skills__ico-github{
+    width: 70px;
+    height: 70px;
+}
+.skills__ico-git{
+    width: 70px;
+    height: 70px;
+}
+
+.skills__link{
+    padding:0;
+    margin:0;
+    border:0;
+    display:inline-block;
+    text-decoration: none;
+    color:#1B1B1E;
+    font-size: 20px;
+
+}
+
+.projects__h2{
+    font-size: 40px;
+    padding:0;
+    margin:0;
+}
+
+.contact-me{
+    width:100%;
+    box-sizing: border-box;
+    height:100%;
+}
+
+.contact-me__h2{
+    margin:0;
+    font-size:3rem;
+    box-sizing: border-box;
+}
+
+.contact-me__form{
+    display:grid;
+    grid-template-columns: 27rem 27rem;
+    justify-content: center;
+}
+
+.contact-me__input{
+    width:100%;
+    height: 3rem;
+    border:0;
+    padding:0;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+.contact-me__input::placeholder{
+    font-size: 2rem;
+}
+
+.contact-me__label{
+    display: block;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.contact-me__p-message{
+    grid-column: 1/3;
+    height:100%;
+}
+
+.contact-me__input-message{
+    height:100%;
+    resize:none;
+}
+
+.contact-me__p-affair{
+    grid-column:1/3;
+    text-align: left;
+}
+
+.contact-me__input-affair{
+    width:50%;
+}
+
+.contact-me__p-mail{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.contact-me__p-tel{
+    grid-column: 2;
+    grid-row: 2;
+    margin:1rem 0 1rem 1rem;
+}
+
+.contact-me__div-name{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.contact-me__div-lastname{
+    grid-column: 2;
+    grid-row: 1;
+    margin: 2rem 0 0 1rem;
+}
+
+.contact-me__input-lastname{
+    margin:0 0 0 0;
+    height:3.5rem;
+}
+
+.contact-me__p-button{
+    grid-column: 1/3;
+}
+
+.contact-me__button{
+    width:100%;
+    margin: 4rem 0 0 0;
+    font-size: 2rem;
+}

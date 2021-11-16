@@ -1,5 +1,5 @@
 manage.py
 db.sqlite3
-PortfolioApp
 PortfolioEnv
 PortfolioProject
+.vscode

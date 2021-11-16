@@ -1,0 +1,118 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web developer and Software developer</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'Styles/style.css'%}">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+    </style>
+</head>
+
+<body>
+        <header>
+            <nav>
+                <ul class="sections">
+                    <li class="sections__section"><a href="#contact-me" class=sections__link>Contact Me</a></li>
+                    <li class="sections__section"><a href="#projects" class=sections__link>Projects</a></li>
+                    <li class="sections__section"><a href="#skills" class=sections__link>Skills</a></li>
+                    <li class="sections__section"><a href="#about-me" class=sections__link>About Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main class="main-doc">
+            <article>
+                <header class="header-me">
+                    <img src="{% static 'imgs/IMG_20210926_191924_863.jpg' %}" class="header-me__img" alt="Diego Rodríguez Muñiz">
+                    <h1>Web Developer</h1>
+                    <h1>Software Developer</h1>
+                </header>
+               
+                <section class="about-me" id="about-me">
+                    <div class=about-me__p-container>
+                        <p class=about-me__p>
+                            Welcome to my portfolio!! My name is Diego Rodríguez Muñiz and I'm a Web developer and Software
+                            developer.
+                            I have experience working with HTML5, CSS, Python, Django, phpMyadmin, SQLite, LaTex, Excel, SQL, MySQL and more!!!
+                            I worked on more than 10 projects with databases, frameworks, programming languages and web languages.
+                            I love working hard and fast with the best results.
+                        </p>
+                    </div>
+                    <div class="about-me__social-medias">
+                        <h2 class="about-me__social-media-h2">Social Medias</h2>
+                        <ul class="about-me__social-medias-ul">
+                            <li class="about-me__social-media-ul-li"><a href="https://github.com/Darienken" class="about-me__social-media-link"><img src="{% static 'imgs/github.ico'%}" alt="github" class="about-me__social-media-ico about-me__social-media-ico-github"><br><span class="about-me__social-media-github">GitHub</span></a></li>
+                            <li class="about-me__social-media-ul-li"><a href="https://stackoverflow.com/users/15685079" class="about-me__social-media-link"><img src="{% static 'imgs/stackoverflow.ico'%}" alt="stackoverflow" class="about-me__social-media-ico about-me__social-media-ico-stackoverflow"><br><span class="about-me__social-media-stackoverflow">StackOverFlow</span></a></li>
+                            <li class="about-me__social-media-ul-li"><a href="https://www.linkedin.com/in/diego-rodr%C3%ADguez-mu%C3%B1iz-383b8920a" class="about-me__social-media-link"><img src="{% static 'imgs/linkedin.ico'%}" alt="linkedin" class="about-me__social-media-ico about-me__social-media-ico-linkedin"><br><span class="about-me__social-media-linkedin">Linkedin</span></a></li>
+                            <li class="about-me__social-media-ul-li"><a href="https://www.fiverr.com/bibian35" class="about-me__social-media-link"><img src="{% static 'imgs/fiverr.ico'%}" alt="fiverr" class="about-me__social-media-ico about-me__social-media-ico-fiverr"><br><span class="about-me__social-media-fiverr">Fiverr</span></a></li>
+                            <li class="about-me__social-media-ul-li"><a href="https://www.facebook.com/diego.rodriguezmuniz.9" class="about-me__social-media-link"><img src="{% static 'imgs/facebook.ico'%}" alt="facebook" class="about-me__social-media-ico about-me__social-media-ico-facebook"><br><span class="about-me__social-media-facebook">Facebook</span></a></li>
+                            <li class="about-me__social-media-ul-li"><a href="https://www.instagram.com/diegorodriguezmuniz" class="about-me__social-media-link"><img src="{% static 'imgs/instagram.ico'%}" alt="instagram" class="about-me__social-media-ico about-me__social-media-ico-instagram"><br><span class="about-me__social-media-instagram">Instagram</span></a></li>
+                            <li class="about-me__social-media-ul-li"><a href="https://twitter.com/DiegoRo75539254" class="about-me__social-media-link"><img src="{% static 'imgs/twitter.ico'%}" alt="twitter" class="about-me__social-media-ico about-me__social-media-ico-twitter"><br><span class="about-me__social-media-twitter">Twitter</span></a></li>
+                            
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="skills" id="skills">                    
+                    <div class="skills__h2-container">
+                        <h2 class="skills__h2">Skills</h2>
+                    </div>
+                    <div class="skills__ico-container">
+                        <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank" class="skills__link"><img src="{% static 'imgs/html5.ico'%}" alt="html5" class="skills__ico skills__ico-html5"><br><span class="skills__html5">HTML5</span></a>
+                        <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" class="skills__link"><img src="{% static 'imgs/css.ico'%}" alt="css" class="skills__ico skills__ico-css"><br><span class="about-me__social-media-css">CSS</span></a>
+                        <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank" class="skills__link"><img src="{% static 'imgs/python.ico'%}" alt="python" class="skills__ico skills__ico-python"><br><span class="about-me__social-media-python">Python</span></a>
+                        <a href="https://en.wikipedia.org/wiki/Django_(web_framework)" target="_blank" class="skills__link"><img src="{% static 'imgs/django.ico'%}" alt="django" class="skills__ico skills__ico-django"><br><span class="about-me__social-media-django">Django</span></a>
+                        <a href="https://en.wikipedia.org/wiki/MySQL" target="_blank" class="skills__link"><img src="{% static 'imgs/mysql.ico'%}" alt="mysql" class="skills__ico skills__ico-mysql"><br><span class="about-me__social-media-mysql">MySQL</span></a>
+                        <a href="https://en.wikipedia.org/wiki/PostgreSQL" target="_blank" class="skills__link"><img src="{% static 'imgs/postgresql.ico'%}" alt="postgresql" class="skills__ico skills__ico-postgresql"><br><span class="about-me__social-media-postgresql">PostgreSQL</span></a>
+                        <a href="https://en.wikipedia.org/wiki/GitHub" target="_blank" class="skills__link"><img src="{% static 'imgs/github.ico'%}" alt="github" class="skills__ico skills__ico-github"><br><span class="about-me__social-media-github">GitHub</span></a>
+                        <a href="https://en.wikipedia.org/wiki/Git" target="_blank" class="skills__link"><img src="{% static 'imgs/git.ico'%}" alt="git" class="skills__ico skills__ico-git"><br><span class="about-me__social-media-git">Git</span></a>
+                    </div>
+                </section>
+                
+                <section class="projects" id="projects">
+                    <h2 class="projects__h2">Projects</h2>
+                </section>
+                
+                <section class="contact-me" id="contact-me">
+                        <h2 class="contact-me__h2">Contact Me</h2>
+                                <form class="contact-me__form" action="" method="POST">{%csrf_token%}
+                                    <div class="contact-me__div-name"><label for="contact-me__input-name" class="contact-me__label contact-me__fullname">Name:</label>  
+                                        <input id="contact-me__input-name" type="text" class="contact-me__input contact-me__input-name" name="contact-me__input-name" placeholder="Name"></div>
+                                    <div class="contact-me__div-lastname"><input id="contact-me__input-lastname" type="text" class="contact-me__input contact-me__input-lastname" name="contact-me__input-lastname" placeholder="Last Name"></div>
+
+                                    <p class="contact-me__p contact-me__p-mail">
+                                    <label for="contact-me__input-mail" class="contact-me__label contact-me__mail">Email Address:</label>
+                                        <input id="contact-me__input-mail" type="email" class="contact-me__input contact-me__input-mail" name="contact-me__input-mail" placeholder="examplename@example.com">
+                                    </p>
+
+                                    <p class="contact-me__p contact-me__p-tel">
+                                    <label for="contact-me__input-tel" class="contact-me__label contact-me__tel">Phone Number:</label>
+                                        <input id="contact-me__input-tel" type="tel" class="contact-me__input contact-me__input-tel" name="contact-me__input-tel" placeholder="999-999-9999">
+                                    </p>
+
+                                    <p class="contact-me__p contact-me__p-affair">
+                                    <label for="contact-me__affair-text" class="contact-me__label contact-me__affair-label">Affair:</label>
+                                        <input id="contact-me__affair-text" type="text" class="contact-me__input contact-me__input-affair" name="contact-me__input-affair" placeholder="Ex: I want to work with you">
+                                    </p>
+
+                                    <p class="contact-me__p contact-me__p-message">
+                                    <label for="contact-me__message-text" class="contact-me__label contact-me__message-label">Message:</label>
+                                        <textarea id="contact-me__message-text" cols="30" rows="5" class="contact-me__input contact-me__input-message" name="contact-me__input-message"></textarea>
+                                    </p>
+                                    
+                                    <p class="contact-me__p contact-me__p-button">
+                                        <button type="submit" class=contact-me__button>Submit</button>
+                                    </p>
+                                </form>
+                            
+                </section>
+            </article>
+        </main>
+        
+        <footer>
+
+        </footer>
+</body>
+</html>
