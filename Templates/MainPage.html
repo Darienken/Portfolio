@@ -14,10 +14,10 @@
         <header>
             <nav>
                 <ul class="sections">
-                    <li class="sections__section"><a href="#contact-me" class=sections__link>Contact Me</a></li>
-                    <li class="sections__section"><a href="#projects" class=sections__link>Projects</a></li>
-                    <li class="sections__section"><a href="#skills" class=sections__link>Skills</a></li>
-                    <li class="sections__section"><a href="#about-me" class=sections__link>About Me</a></li>
+                    <li class="sections__section"><a href="#contact-me" class="sections__link sections__link-contact">Contact Me</a></li>
+                    <li class="sections__section"><a href="#projects" class="sections__link sections__link-project">Projects</a></li>
+                    <li class="sections__section"><a href="#skills" class="sections__link sections__link-skills">Skills</a></li>
+                    <li class="sections__section"><a href="#about-me" class="sections__link sections__link-about">About Me</a></li>
                 </ul>
             </nav>
         </header>
@@ -42,14 +42,25 @@
                     </div>
                     <div class="about-me__social-medias">
                         <h2 class="about-me__social-media-h2">Social Medias</h2>
+                        <div class="about-me__social-media-p-cont">
+                            <p class="about-me__social-media-p">In this section I listed all my social medias, I have a GitHub
+                                account where <b>I have repositories</b> with a lot of interesting code
+                                done by me, I have an StackOverFlow account where sometimes <b>I reply to
+                                questions</b>, I have a Linkedin account where you can see more about me, I
+                                have a Facebook account, I have an Instagram account, a Twitter account and
+                                <b>if you want to work with me</b> like in a project or if you just want to talk with
+                                me about code I have a <b>Fiverr</b> account where I offer my services as professional
+                                programmer.
+                            </p>
+                        </div>
                         <ul class="about-me__social-medias-ul">
-                            <li class="about-me__social-media-ul-li"><a href="https://github.com/Darienken" class="about-me__social-media-link"><img src="{% static 'imgs/github.ico'%}" alt="github" class="about-me__social-media-ico about-me__social-media-ico-github"><br><span class="about-me__social-media-github">GitHub</span></a></li>
-                            <li class="about-me__social-media-ul-li"><a href="https://stackoverflow.com/users/15685079" class="about-me__social-media-link"><img src="{% static 'imgs/stackoverflow.ico'%}" alt="stackoverflow" class="about-me__social-media-ico about-me__social-media-ico-stackoverflow"><br><span class="about-me__social-media-stackoverflow">StackOverFlow</span></a></li>
-                            <li class="about-me__social-media-ul-li"><a href="https://www.linkedin.com/in/diego-rodr%C3%ADguez-mu%C3%B1iz-383b8920a" class="about-me__social-media-link"><img src="{% static 'imgs/linkedin.ico'%}" alt="linkedin" class="about-me__social-media-ico about-me__social-media-ico-linkedin"><br><span class="about-me__social-media-linkedin">Linkedin</span></a></li>
-                            <li class="about-me__social-media-ul-li"><a href="https://www.fiverr.com/bibian35" class="about-me__social-media-link"><img src="{% static 'imgs/fiverr.ico'%}" alt="fiverr" class="about-me__social-media-ico about-me__social-media-ico-fiverr"><br><span class="about-me__social-media-fiverr">Fiverr</span></a></li>
-                            <li class="about-me__social-media-ul-li"><a href="https://www.facebook.com/diego.rodriguezmuniz.9" class="about-me__social-media-link"><img src="{% static 'imgs/facebook.ico'%}" alt="facebook" class="about-me__social-media-ico about-me__social-media-ico-facebook"><br><span class="about-me__social-media-facebook">Facebook</span></a></li>
-                            <li class="about-me__social-media-ul-li"><a href="https://www.instagram.com/diegorodriguezmuniz" class="about-me__social-media-link"><img src="{% static 'imgs/instagram.ico'%}" alt="instagram" class="about-me__social-media-ico about-me__social-media-ico-instagram"><br><span class="about-me__social-media-instagram">Instagram</span></a></li>
-                            <li class="about-me__social-media-ul-li"><a href="https://twitter.com/DiegoRo75539254" class="about-me__social-media-link"><img src="{% static 'imgs/twitter.ico'%}" alt="twitter" class="about-me__social-media-ico about-me__social-media-ico-twitter"><br><span class="about-me__social-media-twitter">Twitter</span></a></li>
+                            <li class="about-me__social-media-ul-li"><a href="https://github.com/Darienken" class="about-me__social-media-link" target="_blank"><img src="{% static 'imgs/github.ico'%}" alt="github" class="about-me__social-media-ico about-me__social-media-ico-github"><br><span class="about-me__social-media-span">GitHub</span></a></li>
+                            <li class="about-me__social-media-ul-li"><a href="https://stackoverflow.com/users/15685079" class="about-me__social-media-link" target="_blank"><img src="{% static 'imgs/stackoverflow.ico'%}" alt="stackoverflow" class="about-me__social-media-ico about-me__social-media-ico-stackoverflow"><br><span class="about-me__social-media-span">StackOverFlow</span></a></li>
+                            <li class="about-me__social-media-ul-li"><a href="https://www.linkedin.com/in/diego-rodr%C3%ADguez-mu%C3%B1iz-383b8920a" class="about-me__social-media-link" target="_blank"><img src="{% static 'imgs/linkedin.ico'%}" alt="linkedin" class="about-me__social-media-ico about-me__social-media-ico-linkedin"><br><span class="about-me__social-media-span">Linkedin</span></a></li>
+                            <li class="about-me__social-media-ul-li"><a href="https://www.fiverr.com/bibian35" class="about-me__social-media-link" target="_blank"><img src="{% static 'imgs/fiverr.ico'%}" alt="fiverr" class="about-me__social-media-ico about-me__social-media-ico-fiverr"><br><span class="about-me__social-media-span">Fiverr</span></a></li>
+                            <li class="about-me__social-media-ul-li"><a href="https://www.facebook.com/diego.rodriguezmuniz.9" class="about-me__social-media-link" target="_blank"><img src="{% static 'imgs/facebook.ico'%}" alt="facebook" class="about-me__social-media-ico about-me__social-media-ico-facebook"><br><span class="about-me__social-media-span">Facebook</span></a></li>
+                            <li class="about-me__social-media-ul-li"><a href="https://www.instagram.com/diegorodriguezmuniz" class="about-me__social-media-link" target="_blank"><img src="{% static 'imgs/instagram.ico'%}" alt="instagram" class="about-me__social-media-ico about-me__social-media-ico-instagram"><br><span class="about-me__social-media-span">Instagram</span></a></li>
+                            <li class="about-me__social-media-ul-li about-me__social-media-ul-li-twitt"><a href="https://twitter.com/DiegoRo75539254" class="about-me__social-media-link" target="_blank"><img src="{% static 'imgs/twitter.ico'%}" alt="twitter" class="about-me__social-media-ico about-me__social-media-ico-twitter"><br><span class="about-me__social-media-span">Twitter</span></a></li>
                             
                         </ul>
                     </div>
@@ -59,15 +70,25 @@
                     <div class="skills__h2-container">
                         <h2 class="skills__h2">Skills</h2>
                     </div>
+                    <div class="skills__p-cont">
+                        <p class="skills__p">
+                            In this sections I listed almost all the knowledge that I have, as you can see
+                            I can work with <b>Python</b> and it <b>frameworks</b>, <b>modules</b>, <b>libraries</b> and I know everything
+                            about Python, I can make websites using <b>Django</b> or <b>Flask</b> and I can add databases in those
+                            websites, I know <b>SQL</b> and I can work with <b>MySQL</b>, <b>PostgreSQL</b> and also I have knowledges of
+                            how to work with their workbenchs, even phpMyAdmin, I can make the <b>front-end</b> of a website
+                            using <b>HTML5</b> and <b>CSS</b> and I'm amazing working in team using <b>GitHub</b> and <b>Git</b>.
+                        </p>
+                    </div>
                     <div class="skills__ico-container">
-                        <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank" class="skills__link"><img src="{% static 'imgs/html5.ico'%}" alt="html5" class="skills__ico skills__ico-html5"><br><span class="skills__html5">HTML5</span></a>
-                        <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" class="skills__link"><img src="{% static 'imgs/css.ico'%}" alt="css" class="skills__ico skills__ico-css"><br><span class="about-me__social-media-css">CSS</span></a>
-                        <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank" class="skills__link"><img src="{% static 'imgs/python.ico'%}" alt="python" class="skills__ico skills__ico-python"><br><span class="about-me__social-media-python">Python</span></a>
-                        <a href="https://en.wikipedia.org/wiki/Django_(web_framework)" target="_blank" class="skills__link"><img src="{% static 'imgs/django.ico'%}" alt="django" class="skills__ico skills__ico-django"><br><span class="about-me__social-media-django">Django</span></a>
-                        <a href="https://en.wikipedia.org/wiki/MySQL" target="_blank" class="skills__link"><img src="{% static 'imgs/mysql.ico'%}" alt="mysql" class="skills__ico skills__ico-mysql"><br><span class="about-me__social-media-mysql">MySQL</span></a>
-                        <a href="https://en.wikipedia.org/wiki/PostgreSQL" target="_blank" class="skills__link"><img src="{% static 'imgs/postgresql.ico'%}" alt="postgresql" class="skills__ico skills__ico-postgresql"><br><span class="about-me__social-media-postgresql">PostgreSQL</span></a>
-                        <a href="https://en.wikipedia.org/wiki/GitHub" target="_blank" class="skills__link"><img src="{% static 'imgs/github.ico'%}" alt="github" class="skills__ico skills__ico-github"><br><span class="about-me__social-media-github">GitHub</span></a>
-                        <a href="https://en.wikipedia.org/wiki/Git" target="_blank" class="skills__link"><img src="{% static 'imgs/git.ico'%}" alt="git" class="skills__ico skills__ico-git"><br><span class="about-me__social-media-git">Git</span></a>
+                        <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank" class="skills__link"><img src="{% static 'imgs/html5.ico'%}" alt="html5" class="skills__ico skills__ico-html5"><br><span class="skills__span">HTML5</span></a>
+                        <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" class="skills__link"><img src="{% static 'imgs/css.ico'%}" alt="css" class="skills__ico skills__ico-css"><br><span class="skills__span">CSS</span></a>
+                        <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank" class="skills__link"><img src="{% static 'imgs/python.ico'%}" alt="python" class="skills__ico skills__ico-python"><br><span class="skills__span">Python</span></a>
+                        <a href="https://en.wikipedia.org/wiki/Django_(web_framework)" target="_blank" class="skills__link"><img src="{% static 'imgs/django.ico'%}" alt="django" class="skills__ico skills__ico-django"><br><span class="skills__span">Django</span></a>
+                        <a href="https://en.wikipedia.org/wiki/MySQL" target="_blank" class="skills__link"><img src="{% static 'imgs/mysql.ico'%}" alt="mysql" class="skills__ico skills__ico-mysql"><br><span class="skills__span">MySQL</span></a>
+                        <a href="https://en.wikipedia.org/wiki/PostgreSQL" target="_blank" class="skills__link"><img src="{% static 'imgs/postgresql.ico'%}" alt="postgresql" class="skills__ico skills__ico-postgresql"><br><span class="skills__spanl">PostgreSQL</span></a>
+                        <a href="https://en.wikipedia.org/wiki/GitHub" target="_blank" class="skills__link skills__link-github"><img src="{% static 'imgs/github.ico'%}" alt="github" class="skills__ico skills__ico-github"><br><span class="skills__span">GitHub</span></a>
+                        <a href="https://en.wikipedia.org/wiki/Git" target="_blank" class="skills__link skills__link-git"><img src="{% static 'imgs/git.ico'%}" alt="git" class="skills__ico skills__ico-git"><br><span class="skills__span">Git</span></a>
                     </div>
                 </section>
                 
@@ -78,7 +99,7 @@
                 <section class="contact-me" id="contact-me">
                         <h2 class="contact-me__h2">Contact Me</h2>
                                 <form class="contact-me__form" action="" method="POST">{%csrf_token%}
-                                    <div class="contact-me__div-name"><label for="contact-me__input-name" class="contact-me__label contact-me__fullname">Name:</label>  
+                                    <div class="contact-me__div-name"><label for="contact-me__input-name" class="contact-me__label contact-me__fullname">Name:</label>
                                         <input id="contact-me__input-name" type="text" class="contact-me__input contact-me__input-name" name="contact-me__input-name" placeholder="Name"></div>
                                     <div class="contact-me__div-lastname"><input id="contact-me__input-lastname" type="text" class="contact-me__input contact-me__input-lastname" name="contact-me__input-lastname" placeholder="Last Name"></div>
 
@@ -103,7 +124,7 @@
                                     </p>
                                     
                                     <p class="contact-me__p contact-me__p-button">
-                                        <button type="submit" class=contact-me__button>Submit</button>
+                                        <button type="submit" class="contact-me__button">Submit</button>
                                     </p>
                                 </form>
                             
