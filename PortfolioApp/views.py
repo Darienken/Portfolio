@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.core.mail import send_mail
 from django.conf import settings
+from django.template import loader
 # Create your views here.
 
 
@@ -18,7 +19,7 @@ def MainPage(request):
         
         send_mail(affair,body,settings.EMAIL_HOST_USER,["diegorpro2024@gmail.com"])
 
-        return render(request, "C:/Users/Vivi/OneDrive/Escritorio/Didackmon_User001/thewise king hacka/Web Projects/Portfolio/PortfolioApp/templates")
+        return render(request, loader.get_template("MainPage.html"))
 
     
-    return render(request,"C:/Users/Vivi/OneDrive/Escritorio/Didackmon_User001/thewise king hacka/Web Projects/Portfolio/PortfolioApp/templates")
+    return render(request, loader.get_template("MainPage.html"))
