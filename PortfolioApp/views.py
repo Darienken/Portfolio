@@ -14,11 +14,11 @@ def MainPage(request):
         message=request.POST["contact-me__input-message"]
         tel=request.POST["contact-me__input-tel"]
         mail=request.POST["contact-me__input-mail"]
-        body=f"Name: {name} LastName: {last_name} Mail: {mail} Tel: {tel}\n{message}"
+        body=f"Name: {name} LastName: {last_name} Mail: {mail} Tel: {tel}/n{message}"
         
         send_mail(affair,body,settings.EMAIL_HOST_USER,["diegorpro2024@gmail.com"])
 
-        return render(request, "MainPage.html")
+        return render(request, "C:/Users/Vivi/OneDrive/Escritorio/Didackmon_User001/thewise king hacka/Web Projects/Portfolio/PortfolioApp/templates/MainPage.html")
 
     
-    return render(request,"MainPage.html")
+    return render(request,"C:/Users/Vivi/OneDrive/Escritorio/Didackmon_User001/thewise king hacka/Web Projects/Portfolio/PortfolioApp/templates/MainPage.html")
