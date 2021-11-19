@@ -19,7 +19,7 @@ def MainPage(request):
         
         send_mail(affair,body,settings.EMAIL_HOST_USER,["diegorpro2024@gmail.com"])
 
-        return render(request, loader.get_template("templates"))
+        return render(request, loader.get_template("MainPage.html"))
 
     
-    return render(request, loader.get_template("templates"))
+    return render(request, loader.get_template("MainPage.html"))
