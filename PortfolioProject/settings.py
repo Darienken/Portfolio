@@ -63,7 +63,7 @@ ROOT_URLCONF = 'PortfolioProject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['PortfolioApp/templates'],
+        'DIRS': ['PortfolioApp'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
