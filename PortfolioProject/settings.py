@@ -61,7 +61,7 @@ ROOT_URLCONF = 'PortfolioProject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["C:/Users/Vivi/OneDrive/Escritorio/Didackmon_User001/thewise king hacka/Web Projects/Portfolio/PortfolioApp/Templates"],
+        'DIRS': ["PortfolioApp/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -128,7 +128,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS=[
-    PurePath.joinpath(BASE_DIR /'PortfolioApp' / 'Templates' /'static')
+    PurePath.joinpath(BASE_DIR /'PortfolioApp' / 'templates' /'static')
 ]
 
 STATICFILES_STORAGE='whitenoise.storage.CompressedManifestStaticFilesStorage'
