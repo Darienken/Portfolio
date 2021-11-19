@@ -18,7 +18,7 @@ def MainPage(request):
         
         send_mail(affair,body,settings.EMAIL_HOST_USER,["diegorpro2024@gmail.com"])
 
-        return render(request, "C:/Users/Vivi/OneDrive/Escritorio/Didackmon_User001/thewise king hacka/Web Projects/Portfolio/PortfolioApp/templates/MainPage.html")
+        return render(request, "C:/Users/Vivi/OneDrive/Escritorio/Didackmon_User001/thewise king hacka/Web Projects/Portfolio/PortfolioApp/templates")
 
     
-    return render(request,"C:/Users/Vivi/OneDrive/Escritorio/Didackmon_User001/thewise king hacka/Web Projects/Portfolio/PortfolioApp/templates/MainPage.html")
+    return render(request,"C:/Users/Vivi/OneDrive/Escritorio/Didackmon_User001/thewise king hacka/Web Projects/Portfolio/PortfolioApp/templates")
